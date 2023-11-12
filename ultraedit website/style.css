@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-left: 11vw;
+    padding-bottom: 20vh;
+    margin-top: 5vh;
+    font-size: small;
+}
+.prod{
+    margin-left: 41vw;
+}
+img{
+    height: 46px;
+}
+.im{
+    height: 16px;
+}
+header{
+    padding-left: 23vw;
+    padding-bottom: 9vh;
+}
+.mt{
+    margin: 0vh 21vw 8vh 19vw;
+    font-size: 20px;
+    text-align: center;
+}
+.dt{
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 25px;
+    width: 243px;
+    color: white;
+    margin-left: 40vw;
+    margin-bottom: 16vh;
+    border-radius: 5px;
+    background-color: #0cb3f5;
+    display: flex;
+}
+.mid{
+    display: inline-flex;
+    margin-left: 18.2vw;
+    gap: 10px;
+    place-items: center;
+    margin-bottom: 14px;
+}
+.down{
+    font-size: large;
+}
+.sub{
+    font-size: small;
+}
+.ht{
+    display:inline-flex;
+    font-size: 37px;
+    margin: 6px;
+}
+.ut{
+    font-weight: bolder;
+}
+.i3{
+    height: 23px;
+    display: inline;
+}
+.container{
+    margin-left: 18vw;
+    display: grid;
+    width: 64vw;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 5px;
+}
+.item{
+    height: 150px;
+    width: 250px;
+    background-color: aliceblue;
+}
+.li {
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    display: inline-flex;
+    height: 25px;
+    width: 98px;
+    margin-left: 16px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.l1{
+    background-color: #1fbfff;
+}
+.l2{
+    background-color: #3dff1f;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.txt{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.st{
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 16px
+}
+@media only screen and (orientation:portrait){
+    .container{
+        grid-template-rows: repeat(10,1fr);
+        height: 547px;
+        margin-left: 18vw;
+        display: grid;
+        width: 64vw;
+        grid-template-columns: 255px;
+        place-items: center;
+        gap: 5px;
+    }
+}
